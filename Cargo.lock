@@ -1499,6 +1499,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "jmk-klapit"
+version = "0.1.0"
+dependencies = [
+ "blobs",
+ "comfy",
+]
+
+[[package]]
 name = "jni"
 version = "0.21.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1776,14 +1784,6 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys 0.48.0",
-]
-
-[[package]]
-name = "my-comfy-game"
-version = "0.1.0"
-dependencies = [
- "blobs",
- "comfy",
 ]
 
 [[package]]
